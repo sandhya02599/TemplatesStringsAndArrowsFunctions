@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TemplatesStrings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin-left: 700px;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1{
+            color: rgb(240, 133, 12);
+        }
+    </style>
+</head>
+<body>
+    <h1>TemplatesStrings-JS</h1>
+    <p id="output"></p>
+
+
+    <script>
+        var Sandhya = "Shuttle";
+
+        document.write("I like a playing:" + Sandhya + "<br>");     //without Templates Strings//
+
+
+        document.write(`I like a playing ${Sandhya} <br>`)    //with Template Strings//
+    </script>
+</body>
+</html>
